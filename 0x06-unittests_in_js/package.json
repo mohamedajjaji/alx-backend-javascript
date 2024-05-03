@@ -1,0 +1,14 @@
+{
+  "name": "unittests_in_js",
+  "version": "1.0.0",
+  "description": "Learning the basics of unittests in Node.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Mohamed AJJAJI <majjaji98@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
+}
