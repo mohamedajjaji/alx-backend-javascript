@@ -2,13 +2,19 @@
   "name": "unittests_in_js",
   "version": "1.0.0",
   "description": "Learning the basics of unittests in Node.js",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "Mohamed AJJAJI <majjaji98@gmail.com>",
-  "private": true,
-  "license": "MIT",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
   "devDependencies": {
-    "mocha": "^10.4.0"
+    "chai": "^4.4.1",
+    "mocha": "^6.2.3",
+    "request": "^2.88.2",
+    "sinon": "^7.5.0"
   }
 }
